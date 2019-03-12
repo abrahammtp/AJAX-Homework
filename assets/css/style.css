@@ -1,3 +1,4 @@
+/* Here we are targetting the whole body of the website, we assing the background image and also change the font family */
 body {
     background-image: url("https://images.unsplash.com/photo-1444012183556-ad267375edb4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
     background-position: center;
@@ -6,12 +7,14 @@ body {
     font-family: 'ZCOOL QingKe HuangYou', cursive;
 }
 
+/* Here we are targetting the buttons that the user will be clicking on to display the sports */
 #sport-buttons {
     background: rgb(255, 217, 0);
     /* margin-left: 269px; */
     margin-top: 50px;
 }
 
+/* This container is going to house the interactive portion of the website */
 .container {
     margin-top: 50px;
     margin-bottom: 50px;
@@ -20,21 +23,25 @@ body {
     padding-bottom: 20px;
 }
 
+/* This h1 tag is the title of the website */
 h1 {
     text-align: center;
     color: rgb(255, 217, 0);
     font-size: 50px;
 }
 
+/* This label targets the example in the input form */
 label {
     font-size: 20px;
 }
 
+/* This id targets input form itself, adding some color to it */
 #inputGroup-sizing-sm {
     color: rgb(255, 217, 0);
     background-color: darkgreen;
 }
 
+/* This targets the gifs, we determine their size and position on the website */
 .gif {
     width: 70%;
     height: 40%;
@@ -42,6 +49,7 @@ label {
     
 }
 
+/* We add margin to the ratings so they can be aligned with the gifs */
 .rating {
     margin-left: 40px;
 }
