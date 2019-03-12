@@ -1,0 +1,47 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1444012183556-ad267375edb4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+    background-position: center;
+    background-size: 100%;
+    color: rgb(255, 217, 0);
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
+#sport-buttons {
+    background: rgb(255, 217, 0);
+    /* margin-left: 269px; */
+    margin-top: 50px;
+}
+
+.container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 60%;
+    background-color: rgba(7, 73, 46, 0.7);
+    padding-bottom: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(255, 217, 0);
+    font-size: 50px;
+}
+
+label {
+    font-size: 20px;
+}
+
+#inputGroup-sizing-sm {
+    color: rgb(255, 217, 0);
+    background-color: darkgreen;
+}
+
+.gif {
+    width: 70%;
+    height: 40%;
+    margin-left: 40px;
+    
+}
+
+.rating {
+    margin-left: 40px;
+}

@@ -11,23 +11,39 @@
     <!--Bootstrap cdn-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou" rel="stylesheet">
     <!--my style.css file-->
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
 </head>
 
 <body>
 
-    <div id="sport-buttons"></div>
+    <div class="container">
 
-    <!-- <input id="userChoice" type="text"/> -->
-    <form id="sport-form">
-        <label for="sport-input">What's your favorite sport?</label>
-        <input type="text" id="sport-input">
+        <h1>Welcome to sports paradise!</h1>
+        <div class="row">
+                <br>
+                <button id="sport-buttons" class="btn btn-warning" type="submit"></button>
+                <br>
+        </div>
         <br>
-        <input id="add-sport" type="submit" value="Add it to the list!">
-    </form>
+        <br>
 
-    <div id="sport-images"></div>
+        <!-- <input id="userChoice" type="text"/> -->
+        <form id="sport-form">
+            <label for="sport-input">What's your favorite sport?</label>
+            <div class="input-group input-group-sm mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="inputGroup-sizing-sm">Example: swimming</span>
+                    </div>
+                    <input id="sport-input" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+            </div>
+            <br>
+            <button id="add-sport" type="button" class="btn btn-warning">Add it to the list!</button>
+        </form>
+
+        <div id="sport-images"></div>
+    </div>
     <!--Bootstrap cdn-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
