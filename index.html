@@ -4,32 +4,34 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Sports Gifs</title>
+    <title>Sports Paradise</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!--reset.css file-->
+    <!-- reset.css file-->
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css">
-    <!--Bootstrap cdn-->
+    <!-- Bootstrap cdn-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Google Fonts link -->
     <link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou" rel="stylesheet">
-    <!--my style.css file-->
+    <!-- My style.css file-->
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
 </head>
 
 <body>
-
+<!-- The UI is going to be inside this container -->
     <div class="container">
-
+        <!-- This h1 tag is going to be the title that the user will see at the top of the page -->
         <h1>Welcome to sports paradise!</h1>
         <div class="row">
                 <br>
+                <!-- This button element is going to house the sports the user enters, and those preloaded to the website. Bootstrap was used for the styling -->
                 <button id="sport-buttons" class="btn btn-warning" type="submit"></button>
                 <br>
         </div>
         <br>
         <br>
 
-        <!-- <input id="userChoice" type="text"/> -->
+        <!-- This is the form where the user is going to input the sport he/she wants to add. Bootstrap was used for the styling -->
         <form id="sport-form">
             <label for="sport-input">What's your favorite sport?</label>
             <div class="input-group input-group-sm mb-3">
@@ -39,9 +41,10 @@
                     <input id="sport-input" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
             </div>
             <br>
+            <br>
             <button id="add-sport" type="button" class="btn btn-warning">Add it to the list!</button>
         </form>
-
+        <!-- This div is going to contain all of the gifs -->
         <div id="sport-images"></div>
     </div>
     <!--Bootstrap cdn-->
