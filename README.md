@@ -12,7 +12,7 @@ In this application, we will use the GIPHY API to make a dynamic web page that p
     * AJAX
     * Google Fonts
     
-# Functionality Demostration
+# Functionality Demonstration
 
 ![Tennis](https://user-images.githubusercontent.com/46465000/57721213-a7bb2880-7651-11e9-887d-739c9b5c992f.gif)
 
